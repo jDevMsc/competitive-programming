@@ -1,2 +1,2 @@
 # compProg
-Collection of algorithms and data structures in Java + solutions to practical tasks.
+Collection of algorithms and data structures in Java +  practical tasks.
