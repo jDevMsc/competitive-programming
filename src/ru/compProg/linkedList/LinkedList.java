@@ -1,4 +1,4 @@
-package ru.compProg.linkedList;
+package ru.compprog.linkedList;
 
 public class LinkedList {   
    public static void main(String[] args) {
