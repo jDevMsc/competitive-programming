@@ -1,4 +1,4 @@
-package ru.compprog.linkedlist;
+package ru.compprog.task1test;
 
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;

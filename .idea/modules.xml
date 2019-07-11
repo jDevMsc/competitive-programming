@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/collections/collections.iml" filepath="$PROJECT_DIR$/collections/collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/firstLevel.iml" filepath="$PROJECT_DIR$/firstLevel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/tasks.iml" filepath="$PROJECT_DIR$/tasks/tasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/collections/tasks (1).iml" filepath="$PROJECT_DIR$/collections/tasks (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks/tasks (2).iml" filepath="$PROJECT_DIR$/tasks/tasks (2).iml" />
     </modules>
   </component>
 </project>

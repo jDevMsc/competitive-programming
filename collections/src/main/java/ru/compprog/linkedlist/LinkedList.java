@@ -1,62 +1,59 @@
 package ru.compprog.linkedlist;
-
 import java.util.*;
 
-public class LinkedList
-{
+public class LinkedList {
    public Node head;
    public Node tail;
 
-   public LinkedList()
-   {
+   public LinkedList() {
       head = null;
       tail = null;
    }
 
    public void addInTail(Node item) {
-      if (this.head == null)
+      if (this.head == null) {
          this.head = item;
-      else
+      } else {
          this.tail.next = item;
+      }
       this.tail = item;
    }
 
    public Node find(int value) {
       Node node = this.head;
       while (node != null) {
-         if (node.value == value)
+         if (node.value == value) {
             return node;
+         }
          node = node.next;
       }
       return null;
    }
 
-   public ArrayList<Node> findAll(int _value) {
+   public ArrayList<Node> findAll(int value) {
       ArrayList<Node> nodes = new ArrayList<Node>();
       return nodes;
    }
 
-   public boolean remove(int _value)
-   {
+   public boolean remove(int value) {
       Node node = this.head;
       while (node != null) {
-         if (node.value == _value)
+         if (node.value == value) {
             return true;
+         }
          node = node.next;
       }
 
       return false; // если узел был удалён
    }
-
 }
 
 class Node
 {
    public int value;
    public Node next;
-   public Node(int _value)
-   {
-      value = _value;
+   public Node(int value) {
+      this.value = value;
       next = null;
    }
 }

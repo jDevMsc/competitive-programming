@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.compprog</groupId>
     <artifactId>firstLevel</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>2.0</version>
      <name>firstLevel</name>
      
@@ -12,6 +12,11 @@
        <maven.compiler.target>11</maven.compiler.target>
        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
      </properties>
+
+    <modules>
+        <module>collections</module>
+        <module>tasks</module>
+    </modules>
 
     <build>
     <plugins>
