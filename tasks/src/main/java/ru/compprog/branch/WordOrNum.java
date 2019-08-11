@@ -12,9 +12,9 @@ public class WordOrNum {
     try {
       a = Integer.parseInt(reader.readLine());
       if (a >= 'A' && a <= 'Z' || a >= 'a' && a <= 'z') {
-        System.out.println("Это буква " + (char)a);
+        System.out.println("Это буква " + (char) a);
       } else {
-        System.out.println("Это не буква,а символ " + (char)a);
+        System.out.println("Это не буква,а символ " + (char) a);
       }
 
     } catch (IOException e) {

@@ -12,11 +12,11 @@ public class SumMultDig {
       int dig = Integer.parseInt(reader.readLine());
       int sum = 0;
       int mult = 1;
-      while(dig>0) {
-        if(dig!=0) {
-          sum +=dig%10;
-          mult *=dig%10;
-          dig = dig/10;
+      while (dig > 0) {
+        if (dig != 0) {
+          sum += dig % 10;
+          mult *= dig % 10;
+          dig = dig / 10;
         }
       }
       System.out.println("Сумма цифр введенного числа = " + sum);

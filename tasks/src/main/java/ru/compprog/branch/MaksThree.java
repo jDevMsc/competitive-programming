@@ -14,7 +14,8 @@ public class MaksThree {
       } else {
         result = c;
       }
-    } if (b > c) {
+    }
+    if (b > c) {
       result = b;
     } else {
       result = c;

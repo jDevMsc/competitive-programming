@@ -10,7 +10,6 @@ public class EasyFx {
 
   /**
    * function F(x)
-   * @param args
    */
   public static void main(String[] args) {
     int y;
@@ -21,7 +20,7 @@ public class EasyFx {
       } else if (x == 0) {
         y = 0;
       } else {
-        y = 2 * abs(x) -1;
+        y = 2 * abs(x) - 1;
       }
       System.out.println(y);
     } catch (IOException e) {

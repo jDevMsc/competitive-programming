@@ -18,7 +18,7 @@ public class BtKb {
       if (spec.equals("b")) {
         System.out.println(a * 1024);
       } else if (spec.equals("k")) {
-        System.out.println((double)a / 1024);
+        System.out.println((double) a / 1024);
       } else {
         System.out.println("Неверный ввод");
       }

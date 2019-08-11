@@ -5,6 +5,7 @@ import java.io.InputStreamReader;
 import java.util.Random;
 
 public class FillArr {
+
   public static void main(String[] args) {
     int[] first = new int[5];
     int[] second = new int[5];
@@ -16,9 +17,9 @@ public class FillArr {
       first[i] = random.nextInt(10);
     }
     for (int i = 0; i < second.length; i++) {
-      try{
+      try {
         second[i] = Integer.parseInt(reader.readLine());
-      }catch (Exception e) {
+      } catch (Exception e) {
         e.printStackTrace();
       }
     }

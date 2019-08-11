@@ -10,10 +10,10 @@ public class ProbabilityNum {
 
     for (int i = 0; i < 1000; i++) {
       int a = random.nextInt(1000);
-      if(a%2!=0) {
+      if (a % 2 != 0) {
         count++;
       }
     }
-    System.out.println(count/1000*100);
+    System.out.println(count / 1000 * 100);
   }
 }

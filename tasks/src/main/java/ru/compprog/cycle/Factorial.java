@@ -11,12 +11,12 @@ public class Factorial {
     int num = Integer.parseInt(reader.readLine());
     int factorial = 1;
 
-      for (int i = 1; i <= num; i++) {
-        if(num == 0) {
-          break;
-        }
-        factorial *=i;
+    for (int i = 1; i <= num; i++) {
+      if (num == 0) {
+        break;
       }
+      factorial *= i;
+    }
     System.out.println(factorial);
   }
 

@@ -1,8 +1,7 @@
 package ru.compprog.array;
 
 /**
- * Finding the minimum, maximum and average values of array.
- * author: Artem Luzan
+ * Finding the minimum, maximum and average values of array. author: Artem Luzan
  **/
 public class ArrAver {
 
@@ -14,10 +13,12 @@ public class ArrAver {
 
     for (int i = 0; i < array.length; i++) {
       array[0] = Math.random();
-      if (min > array[i])
+      if (min > array[i]) {
         min = array[i];
-      if (max < array[i])
+      }
+      if (max < array[i]) {
         max = array[i];
+      }
       avg += array[i] / array.length;
     }
 

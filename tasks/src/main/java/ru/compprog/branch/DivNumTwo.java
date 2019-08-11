@@ -17,10 +17,10 @@ public class DivNumTwo {
 
     if (a % b == 0) {
       System.out.println("Первое число делится на второе");
-      System.out.println("Частное = " + (double)a / b);
+      System.out.println("Частное = " + (double) a / b);
     } else {
       System.out.println("Первое число делится не на второе");
-      System.out.println("Частное = " + (double)a / b);
+      System.out.println("Частное = " + (double) a / b);
     }
 
 

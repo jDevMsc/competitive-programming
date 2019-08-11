@@ -15,12 +15,12 @@ public class ArrNumMod {
 
     for (int i = 0; i < array.length; i++) {
       array[i] = -15 + random.nextInt(14 + 15 + 1);
-      if(max<array[i]) {
+      if (max < array[i]) {
         max = array[i];
       }
     }
     for (int i = 0; i < array.length; i++) {
-      if(Math.abs(array[i]) > max) {
+      if (Math.abs(array[i]) > max) {
         num++;
       }
     }
