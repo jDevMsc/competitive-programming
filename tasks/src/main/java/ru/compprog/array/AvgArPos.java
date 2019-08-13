@@ -18,6 +18,6 @@ public class AvgArPos {
       }
     }
     System.out.println("Среднее арифмитическое положительных чисел:" + (double)sumPos/qty);
-  }
+    }
 
 }
