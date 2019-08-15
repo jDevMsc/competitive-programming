@@ -15,6 +15,5 @@ public class MaxElemEvInd {
       }
     }
     System.out.println(max);
-
   }
 }
