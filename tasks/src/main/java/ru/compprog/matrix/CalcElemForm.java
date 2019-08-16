@@ -1,5 +1,8 @@
 package ru.compprog.matrix;
 
+/**
+ * Calculate the elements of the matrix by the formula
+ */
 public class CalcElemForm {
 
   public static void main(String[] args) {
