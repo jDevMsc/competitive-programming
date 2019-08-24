@@ -25,5 +25,4 @@ public class NOD {
         System.out.println("Наибольший общий делитель = " + nod);
       }
   }
-
 }
