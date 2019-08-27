@@ -1,4 +1,4 @@
-package ru.compprog.cycle;
+package ru.compprog.branch;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -15,9 +15,7 @@ public class QuadEquation {
     float a =  Float.parseFloat(reader.readLine());
     float b = Float.parseFloat(reader.readLine());
     float c = Float.parseFloat(reader.readLine());
-
     float decs = b*b - 4*a*c;
-
     if(decs > 0) {
       float x1 = (float)((-b + Math.sqrt(decs))/(2*a)) ;
       float x2 = (float)((-b - Math.sqrt(decs))/(2*a)) ;
