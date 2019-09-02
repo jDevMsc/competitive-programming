@@ -24,9 +24,7 @@ public class proofSyracuse {
           num = (num * 3 + 1) / 2;
         }
       }
-
     }
     System.out.println("Гипотеза Сиракуза верна");
-
   }
 }
