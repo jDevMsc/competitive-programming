@@ -1,5 +1,7 @@
 package ru.compprog.sort;
 
+import java.util.Arrays;
+
 public class SelectionSort {
 
   public static void main(String[] args) {
@@ -8,7 +10,7 @@ public class SelectionSort {
     for (int i = 0; i < test.length; i++) {
       int min = test[i];
       int minId = i;
-      for (int j = 0 + i; j < test.length; j++) {
+      for (int j =  i; j < test.length; j++) {
         if(test[j] < min) {
           min = test[j];
           minId = j;
@@ -18,5 +20,7 @@ public class SelectionSort {
       test[i] = min;
       test[minId] = temp;
     }
+
+    System.out.println(Arrays.toString(test));
   }
 }
