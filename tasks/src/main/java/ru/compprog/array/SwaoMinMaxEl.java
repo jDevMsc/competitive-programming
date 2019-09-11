@@ -25,8 +25,5 @@ public class SwaoMinMaxEl {
     array[minInd] = temp;
 
     System.out.println(Arrays.toString(array));
-
-
   }
-
 }
