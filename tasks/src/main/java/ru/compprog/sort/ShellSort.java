@@ -8,7 +8,7 @@ import java.util.Arrays;
 public class ShellSort {
 
   public static void main(String[] args) {
-    int[] mas = {10, 2, 10, 3, 1, 2, 5 , 4};
+    int[] mas = {10, 2, 10, 3, 1, 2, 5 };
 
     int d = mas.length / 2;
 
@@ -19,7 +19,7 @@ public class ShellSort {
             int temp = mas[j];
           mas[j] = mas[j+d];
           mas[j+d] = temp;
-          j--;
+          j= j-d;
         }
       }
       d = d / 2;
