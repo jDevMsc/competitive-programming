@@ -3,15 +3,14 @@ package ru.compprog.matrix;
 import java.util.Random;
 
 /**
- * The last element of the matrix rows is the sum
- *  of previous elements of the row
+ * The last element of the matrix rows is the sum of previous elements of the row
  */
 public class LastElem {
 
   public static void main(String[] args) {
     int[][] matrix = new int[5][4];
     int sum = 0;
-    Random random  = new Random();
+    Random random = new Random();
 
     for (int i = 0; i < matrix.length; i++) {
       for (int j = 0; j < matrix[0].length; j++) {
@@ -22,7 +21,7 @@ public class LastElem {
           sum = sum + matrix[i][j];
         }
       }
-      ;
+
     }
     for (int i = 0; i < matrix.length; i++) {
       for (int j = 0; j < matrix[0].length; j++) {
