@@ -2,7 +2,7 @@ package ru.compprog.cycle;
 
 /**
  * ASCII character table display
- * After every 10ts character, go to a new line
+ * After every 10ts character, go to a new string
  */
 public class ASCIIDisplay {
 

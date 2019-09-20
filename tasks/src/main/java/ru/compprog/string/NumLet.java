@@ -1,4 +1,4 @@
-package ru.compprog.line;
+package ru.compprog.string;
 
 /**
  * Numbers of lowercase and uppercase letters per string

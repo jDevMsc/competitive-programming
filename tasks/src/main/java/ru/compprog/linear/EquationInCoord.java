@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Using the coordinates of two points entered by user, derive the equation of a line passing
+ * Using the coordinates of two points entered by user, derive the equation of a string passing
  * through these points. y = kx + b
  */
 public class EquationInCoord {
