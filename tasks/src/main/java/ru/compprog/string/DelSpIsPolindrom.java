@@ -40,3 +40,14 @@ public class DelSpIsPolindrom {
     return  builder.toString();
   }
 }
+
+//vers2
+//public static Boolean isPalindrome(String s) {
+//  for (int i = 0; i < s.length() / 2; ++i) {
+//    // символ с начала и конца
+//    if (s.charAt(i) != s.charAt(s.length() - i - 1)) {
+//      return false; // символы не равны, не полиндром
+//    }
+//  }
+//  return true;
+//}
