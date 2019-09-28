@@ -28,6 +28,7 @@ public class ArrayListView {
     //When deleted, everything moves one left
     System.out.println(strings.get(0));
     strings.remove("aaa");
+
     System.out.println(strings.size());
     strings.clear();
     System.out.println(strings.size());
