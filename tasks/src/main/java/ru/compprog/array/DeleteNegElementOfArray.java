@@ -17,23 +17,21 @@ public class DeleteNegElementOfArray {
     }
     System.out.println(Arrays.toString(array));
 
-    int i = 0;
     int lengthAr = 10;
 
-    while (i < lengthAr) {
+    for (int i = 0; i < lengthAr; ) {
       if (array[i] < 0) {
         lengthAr -= 1;
         for (int j = i; j < lengthAr; j++) {
           array[j] = array[j + 1];
         }
       } else {
-        i += 1;
+        i++;
       }
     }
 
     for (int j = 0; j < lengthAr; j++) {
       System.out.print(array[j] + " ");
     }
-
   }
 }
