@@ -1,4 +1,4 @@
-package ru.ds;
+package ru.compprog.structure;
 
 /**
  * Addition and multiplication od complex numbers
