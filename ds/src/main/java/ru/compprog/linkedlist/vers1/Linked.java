@@ -1,4 +1,4 @@
-package ru.compprog.linkedlist;
+package ru.compprog.linkedlist.vers1;
 
 public interface Linked<E> {
   void addLast(E e);

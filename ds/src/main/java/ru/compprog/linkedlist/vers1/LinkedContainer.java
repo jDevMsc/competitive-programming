@@ -1,8 +1,6 @@
-package ru.compprog.linkedlist;
+package ru.compprog.linkedlist.vers1;
 
 import java.util.Iterator;
-import java.util.Spliterator;
-import java.util.function.Consumer;
 
 public class LinkedContainer<E> implements Linked<E>, Iterable<E>,DescendingIterator<E>{
 
