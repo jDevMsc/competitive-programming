@@ -1,4 +1,4 @@
-package ru.compprog.shapes.ShapeHierarchy;
+package ru.compprog.structure.ShapeHierarchy;
 
 public class Cylinder  extends SolidOfRevolution{
   private double height;

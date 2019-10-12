@@ -1,4 +1,4 @@
-package ru.compprog.shapes.ShapeHierarchy;
+package ru.compprog.structure.ShapeHierarchy;
 
 public class Main {
   public static void main(String[] args) {
