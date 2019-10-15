@@ -1,4 +1,4 @@
-package ru.compprog.structure.AbstractShapeHier;
+package ru.compprog.structure.abstractshapehier;
 
 class Cylinder extends SolidOfRevolution {
 

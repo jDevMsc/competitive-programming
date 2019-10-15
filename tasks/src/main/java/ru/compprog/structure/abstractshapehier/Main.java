@@ -1,6 +1,10 @@
-package ru.compprog.structure.ShapeHierarchy;
+package ru.compprog.structure.abstractshapehier;
+
+import java.util.ArrayList;
+import java.util.Collections;
 
 public class Main {
+
   public static void main(String[] args) {
     Ball ball = new Ball(4.5);
     Cylinder cylyinder = new Cylinder(2, 2);
@@ -11,5 +15,9 @@ public class Main {
     System.out.println(box.add(ball)); // ok
     System.out.println(box.add(cylyinder)); // ok
     System.out.println(box.add(pyramid)); // failed
+
+    // Sorting:
+    ArrayList<Shape> shapes = box.getShapes();
+    Collections.sort(shapes); // sorted by Volume!
   }
 }

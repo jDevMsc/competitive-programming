@@ -1,4 +1,4 @@
-package ru.compprog.structure.ShapeHierarchy;
+package ru.compprog.structure.shapehierarchy;
 
 import java.util.ArrayList;
 
