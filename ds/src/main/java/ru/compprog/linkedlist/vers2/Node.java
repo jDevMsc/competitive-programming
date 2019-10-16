@@ -1,13 +1,10 @@
 package ru.compprog.linkedlist.vers2;
 
 public class Node {
-
-  int element;
+  int data;
   Node next;
-  Node previous;
 
-  public Node(int element) {
-    this.element = element;
+  public Node(int data) {
+    this.data = data;
   }
-
 }

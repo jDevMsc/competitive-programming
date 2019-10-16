@@ -1,66 +1,101 @@
 package ru.compprog.linkedlist.vers2;
 
-public class LinkedList {
+class LinkedList {
 
-  int size;
-  private Node first;
-  private Node last;
+  Node head;
 
-  public void add(int element) {
-    Node newNode = new Node(element);
-    if (first == null) {
-      newNode.next = null;
-      newNode.previous = null;
-      first = newNode;
-      last = newNode;
+  static class Node {
+
+    int data;
+    Node next;
+
+    Node(int d) {
+      data = d;
+    }
+  }
+
+  public static LinkedList insert(LinkedList list, int data) {
+    Node new_node = new Node(data);
+    new_node.next = null;
+    if (list.head == null) {
+      list.head = new_node;
     } else {
-      last.next = newNode;
-      newNode.previous = last;
-      last = newNode;
+      Node last = list.head;
+      while (last.next != null) {
+        last = last.next;
+      }
+      last = new_node;
     }
-    size++;
-  }
-
-  public void add(int index, int element) {
-    if (index < 0 || index >= size) {
-      throw new IndexOutOfBoundsException();
-    }
-    Node newNode = new Node(element);
-    if (index == 0) {
-      add(element);
-    }
-    if (index == size) {
-      last.next = newNode;
-      last = newNode;
-    }
-    Node oldNode = first;
-    for (int i = 0; i < index; i++) {
-      oldNode = oldNode.next;
-    }
-    Node oldPrevious = oldNode.previous;
-    oldPrevious.next = newNode;
-    oldNode.previous = newNode;
-
-    newNode.previous = oldPrevious;
-    newNode.next = oldNode;
-    size++;
+    return list;
   }
 
 
-  public int get(int index) {
-    if (index < 0 || index >= size) {
-      throw new IndexOutOfBoundsException();
+  public static void printList(LinkedList list) {
+    Node current = list.head;
+    System.out.println("Linked list :");
+    while (current.next != null) {
+      System.out.print(current.data + " ");
+      current = current.next;
     }
-    Node result = first;
-    for (int i = 0; i < index; i++) {
-      result = result.next;
+  }
+
+  public static LinkedList deleteByKey(LinkedList list, int key) {
+    Node current = list.head;
+    Node prev = null;
+
+    //if head
+    if (current != null && current.data == key) {
+      list.head = current.next;
+      System.out.println(key + " found and deleted");
+      return list;
     }
 
-    return result.element;
+    //if not head
+    while (current != null && current.data != key) {
+      prev = current;
+      current = current.next;
+    }
+    if (current != null) {
+      prev.next = current.next;
+      System.out.println(key + " found and deleted");
+      return list;
+    }
+
+    //not found
+    if (current == null) {
+      System.out.println(key + " not found");
+    }
+    return list;
   }
 
 
+  public static LinkedList deleteByPos(LinkedList list, int index) {
+    Node current = list.head;
+    Node prev = null;
 
+    if (index == 0 && current != null) {
+      list.head = current.next;
+      System.out.println(index + " position element deleted");
+      return list;
+    }
 
+    int counter = 0;
+    while (current != null) {
+      if (counter == index) {
+        prev.next = current.next;
+        System.out.println(index + " position element deleted");
+        break;
+      } else {
+        prev = current;
+        current = current.next;
+        counter++;
+      }
+    }
+
+    if(current == null) {
+      System.out.println(index + " position element not found");
+    }
+    return list;
+  }
 
 }

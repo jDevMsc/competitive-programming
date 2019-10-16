@@ -1,4 +1,4 @@
-package ru.compprog.linkedlist.vers3;
+package ru.compprog.linkedlist.vers2;
 
 import java.util.LinkedList;
 import java.util.List;
