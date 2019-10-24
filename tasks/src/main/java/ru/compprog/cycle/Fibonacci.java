@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Display as many elements of the Fibonacci as the user dpecified
+ * Display as many elements of the Fibonacci as the user specified
  */
 public class Fibonacci {
 
