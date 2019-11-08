@@ -1,7 +1,7 @@
 package ru.compprog.array;
 
 /**
- * Find the sum of elements between the min and max array elements
+ * Find the sumRecursive of elements between the min and max array elements
  */
 public class SumBetwMinMax {
 

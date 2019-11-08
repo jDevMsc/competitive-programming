@@ -3,7 +3,7 @@ package ru.compprog.matrix;
 import java.util.Random;
 
 /**
- * Find the matrix column with the  maximum sum of element
+ * Find the matrix column with the  maximum sumRecursive of element
  */
 public class ColWithMaxSum {
 

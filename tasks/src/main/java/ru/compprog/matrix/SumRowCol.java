@@ -3,7 +3,7 @@ package ru.compprog.matrix;
 import java.util.Arrays;
 
 /**
- * sum of  rows and  columns of a  matrix
+ * sumRecursive of  rows and  columns of a  matrix
  */
 public class SumRowCol {
 

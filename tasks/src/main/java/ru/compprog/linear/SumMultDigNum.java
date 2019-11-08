@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * The sum and multiply of a digits of a three-digit  number
+ * The sumRecursive and multiply of a digits of a three-digit  number
  */
 public class SumMultDigNum {
 
@@ -20,13 +20,13 @@ public class SumMultDigNum {
     System.out.println("Mult: " + a*b*c);
 
     /*цикл
-    int sum = 0;
+    int sumRecursive = 0;
     int mult = 1;
     while(num>0) {
-      sum += num%10;
+      sumRecursive += num%10;
       mult *= num%10;
       num = num/10;
     }*/
-    //System.out.println("Sum : " + sum + "\nMult : " + mult);
+    //System.out.println("Sum : " + sumRecursive + "\nMult : " + mult);
   }
 }

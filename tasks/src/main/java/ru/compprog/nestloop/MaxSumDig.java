@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * Find the number with max sum of digits
+ * Find the number with max sumRecursive of digits
  */
 
 public class MaxSumDig {

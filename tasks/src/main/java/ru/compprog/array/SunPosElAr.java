@@ -2,7 +2,7 @@ package ru.compprog.array;
 
 /**
  * In an array counting positive and negative integers,
- * calculate the sum of even positive elements
+ * calculate the sumRecursive of even positive elements
  */
 public class SunPosElAr {
 

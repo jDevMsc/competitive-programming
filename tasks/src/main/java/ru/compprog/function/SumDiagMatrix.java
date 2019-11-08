@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Random;
 
 /**
- * Calculate the sum of the elements of the main or side diagonal
+ * Calculate the sumRecursive of the elements of the main or side diagonal
  * of the matrix depending on the user's choice
  */
 public class SumDiagMatrix {

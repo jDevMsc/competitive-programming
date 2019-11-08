@@ -1,7 +1,7 @@
 package ru.compprog.array;
 
 /**
- * The sum of the modules of the array
+ * The sumRecursive of the modules of the array
  * elements located after first negative
  */
 public class SumNodElAfNeg {

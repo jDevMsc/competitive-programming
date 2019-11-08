@@ -3,7 +3,7 @@ package ru.compprog.matrix;
 import java.util.Random;
 
 /**
- * The last element of the matrix rows is the sum of previous elements of the row
+ * The last element of the matrix rows is the sumRecursive of previous elements of the row
  */
 public class LastElem {
 
