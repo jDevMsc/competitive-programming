@@ -10,7 +10,8 @@ public class GreedyAlgorithms {
   public static void main(String[] args) {
     int[] digits = {3, 1, 7, 9, 9, 5 };
     System.out.println(maxNumberFromDigits(digits));
-  }
+
+   }
 
   public static String maxNumberFromDigits(int[] digits) {
     StringBuilder builder = new StringBuilder();
@@ -25,4 +26,6 @@ public class GreedyAlgorithms {
 
     return builder.toString();
   }
+
+
 }
