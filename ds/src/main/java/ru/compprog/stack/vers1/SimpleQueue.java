@@ -1,4 +1,4 @@
-package ru.compprog.stack;
+package ru.compprog.stack.vers1;
 
 import java.util.ArrayList;
 
