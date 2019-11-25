@@ -28,5 +28,16 @@ public class MyStack<T> {
       t.next = top;
       top = t;
     }
+
+    public T peek() {
+      if(top == null) {
+        throw new EmptyStackException();
+      }
+      return top.data;
+    }
+
+    public boolean isEmpty() {
+      return top == null;
+    }
   }
 }
