@@ -1,4 +1,4 @@
-package ru.compprog.structure.tree;
+package ru.compprog.structure.tree.vers1;
 
 import java.util.ArrayList;
 
