@@ -1,4 +1,4 @@
-package ru.compprog.structure.HashMap;
+package ru.compprog.HashMap;
 
 import java.util.ArrayList;
 import java.util.Set;

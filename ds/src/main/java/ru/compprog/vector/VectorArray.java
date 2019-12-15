@@ -1,4 +1,4 @@
-package ru.compprog.structure.vector;
+package ru.compprog.vector;
 
 public class VectorArray {
 

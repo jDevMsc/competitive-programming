@@ -1,4 +1,4 @@
-package ru.compprog.structure.tree.vers1;
+package ru.compprog.tree.vers1;
 
 public interface Stack<T> {
 

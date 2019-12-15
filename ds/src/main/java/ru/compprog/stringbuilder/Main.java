@@ -1,4 +1,4 @@
-package ru.compprog.structure.stringbuilder;
+package ru.compprog.stringbuilder;
 
 public class Main {
 
