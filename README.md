@@ -1,7 +1,7 @@
 [![forthebadge](https://forthebadge.com/images/badges/made-with-java.svg)](https://forthebadge.com)  
 
 # Algorithms and data structures (updated...)
-## Hi all!  
+## Hi all, my name is Artem!  
 I hope this repository helps novice programmers understand the algorithms and data structures.
 I try to devote time every week to solving problems and describe solutions in the appropriate branches of the project.  
 Of course I'm not a professional yet, so if you want to add or indicate a bug, you are welcome.
